@@ -36,12 +36,7 @@ function draw() {
   image(backgroundImg, 0, 0, width, height);
 
   Engine.update(engine);
-
-  
-  
   rect(ground.position.x, ground.position.y, width * 2, 1);
- 
-
   push();
   imageMode(CENTER);
   image(towerImage,tower.position.x, tower.position.y, 160, 310);
